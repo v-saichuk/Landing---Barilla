@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Baloo Bhai';
+    src: url('../fonts/BalooBhai-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBoldItalic.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ThinItalic.woff2') format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBoldItalic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-BoldItalic.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../img/bg-barilla.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grid-container {
+    max-width: 920px!important;
+}
+
+
+.full {
+    border-radius: .7em;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 1em;
+}
+
+.headline {
+    background: #F01A18;
+    border-radius: .7em .7em 0 0;
+}
+
+.headline h1 {
+    font-family: 'Baloo Bhai', cursive;
+    color: #fff;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+#footer p, .footer_links {
+    font-size: .6em;
+}
+
+h2.cell.sub_headline, h2.question {
+    font-size: 1.5em;
+    color: #363636;
+    text-shadow: 0 0 0.85em #ccc;
+}
+
+.prize {
+    padding-top: 2em!important;
+    -webkit-animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-bottom {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+}
+
+[id^="form_"] label:not(.button), span.field_note, [id^=form_] select {
+    color: #4e4e4e;
+}
+
+[id^=form_] input:not([type='checkbox']):not([type='radio']), [id^=form_] select {
+    border-bottom: 1px solid #677073;
+}
+
+[id^=form_] input:not([type='checkbox']):not([type='radio']) {
+    color: white;
+}
+
+.button, #submit_reg_half, #submit_reg_full {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #F01A18;
+    color: #fff;
+}
+
+.button:hover, #submit_reg_half:hover, #submit_reg_full:hover {
+    background: #012A56;
+    -webkit-transition: all .35s ease-in-out !important;
+    transition: all .35s ease-in-out !important;
+}
+
+@media screen and (max-width: 37.9375em) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 1.3rem;
+    }
+    #prize_img img {
+        max-width: 70%;
+    }
+}
